@@ -1,4 +1,6 @@
 from abc import *
+def hello():
+		print("hello")
 
 class nag():#nag(ABC) it will throw cant instantiate abstract class nag with abstract method
 	@abstractmethod
